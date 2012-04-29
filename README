@@ -1,0 +1,15 @@
+Yet another learning project. 
+
+--Javascript
+---- jQuery
+---- JSON (storing small amounts of data in the URL)
+-- CSS
+---- Learning some cool effects!    
+
+Started out as a fun note-maker for my girlfriend.  I found a tutorial that helped me pimp out the graphics:
+
+http://net.tutsplus.com/tutorials/html-css-techniques/create-a-sticky-note-effect-in-5-easy-steps-with-css3-and-html5/
+
+Currently, notes will shuffle around every time you refresh.  I kind of like it that way.
+
+Nathan
