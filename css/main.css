@@ -1,0 +1,48 @@
+/*
+http://net.tutsplus.com/tutorials/html-css-techniques/create-a-sticky-note-effect-in-5-easy-steps-with-css3-and-html5/
+*/
+
+.note 
+{
+    border: 1px solid black;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    height: 100px;
+    width: 150px;
+
+    background:#ffc;
+    border: 1px solid black;
+    /* opacity: .9; */
+
+    font-family:"Reenie Beanie",arial,sans-serif;
+    font-size: 180%;
+    color: black;
+}
+
+body {
+    background-color: #666;
+}
+
+#note_adder {
+    /* Round corners */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+
+    background-color:#222;
+    border: 1px solid black;
+    opacity: .95;
+
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+    height: 200px;
+    width: 200px;
+
+    z-index: 1000;
+}

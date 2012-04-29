@@ -1,0 +1,29 @@
+<!-- This could work using GET variables, where the JSON for the notes are saved in the URL!!! -->
+<html>
+    <head>
+        <title>
+            Love notes, for Nina my sweet
+        </title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css">
+
+		<script src="javascript/jquery.js"></script>
+        <script type="text/javascript" src="javascript/jquery-ui.js"></script>
+        <script type="text/javascript" src="javascript/main.js"></script>
+    </head>
+
+    <body>
+        <div id="note_adder">
+            Add a note, here:
+            <form>
+                <input type="text" id="new_note_text" placeholder="Love note text" />
+                <br/>
+                <input type="button" value="Create note!" 
+                       onclick="create_note($('#new_note_text').val());">
+                <br/>
+                <input type="button" value="Save notes!" 
+                       onclick="save_notes();">
+            </form>
+        </div>
+    </body>
+</html>
